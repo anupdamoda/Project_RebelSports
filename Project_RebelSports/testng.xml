@@ -1,0 +1,18 @@
+<suite name="example suite 1" verbose="1" >
+<test name="Amazon Regression Suite" >
+    <classes>
+      <class name="package_Amazon.Amazon_TC1_SearchProduct"/>
+      <class name="package_Amazon.Amazon_TC2_RemoveProduct"/>
+      <class name="package_Amazon.Amazon_TC3_AddProduct"/>
+      <class name="package_Amazon.Amazon_TC5_AddProduct_Quantity"/>
+      <class name="package_Amazon.Amazon_TC6_AddtoWishlist"/>
+      <class name="package_Amazon.Amazon_TC7_FromWishlistToCart"/>
+      <class name="package_Amazon.Amazon_TC8_EditPersonalinfo"/>
+      <class name="package_Amazon.Amazon_TC9_RetrieveEarlierOrders"/>
+      <class name="package_Amazon.Amazon_TC11_ShopByCategory_Television"/>
+      <class name="package_Amazon.Amazon_TC12_AddProduct_AfterRemoving"/>
+      <class name="package_Amazon.Amazon_TC13_AddProductMultipletimes"/>
+      <class name="package_Amazon.Amazon_TC14_AddSameProductMultipletimes"/>
+    </classes>
+</test>
+</suite>

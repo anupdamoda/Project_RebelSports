@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31659" started-at="2018-06-25T14:43:39Z" finished-at="2018-06-25T14:44:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31659" started-at="2018-06-25T14:43:39Z" finished-at="2018-06-25T14:44:11Z">
+      <class name="package_RebelSports.RebelSports_TC1_SearchProduct">
+        <test-method status="PASS" signature="aSearchProduct()[pri:0, instance:package_RebelSports.RebelSports_TC1_SearchProduct@724af044]" name="aSearchProduct" duration-ms="31631" started-at="2018-06-26T00:43:39Z" finished-at="2018-06-26T00:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aSearchProduct -->
+      </class> <!-- package_RebelSports.RebelSports_TC1_SearchProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [example suite 1]">
+  <test name="Amazon Regression Suite(failed)" preserve-order="false">
+    <classes>
+      <class name="package_Amazon.Amazon_TC1_SearchProduct">
+        <methods>
+          <include name="aSearchProduct"/>
+          <include name="startReport"/>
+        </methods>
+      </class>
+      <class name="package_Amazon.Amazon_TC11_ShopByCategory_Television">
+        <methods>
+          <include name="bycategory_TV"/>
+        </methods>
+      </class>
+      <class name="package_Amazon.Amazon_TC12_AddProduct_AfterRemoving">
+        <methods>
+          <include name="addProduct_Afterremoving"/>
+        </methods>
+      </class>
+      <class name="package_Amazon.Amazon_TC14_AddSameProductMultipletimes">
+        <methods>
+          <include name="addSameProduct_multipletimes"/>
+        </methods>
+      </class>
+      <class name="package_Amazon.Amazon_TC8_EditPersonalinfo">
+        <methods>
+          <include name="editpersonalinfo"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

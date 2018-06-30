@@ -1,0 +1,7 @@
+<suite name="example suite 1" verbose="1" >
+<test name="Amazon Regression Clear Data" >
+    <classes>
+      <class name="package_Amazon.Amazon_TC0_Clear_Cart"/>
+    </classes>
+</test>
+</suite>
